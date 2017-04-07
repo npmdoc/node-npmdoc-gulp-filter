@@ -1,11 +1,13 @@
-# api documentation for  [gulp-filter (v5.0.0)](https://github.com/sindresorhus/gulp-filter#readme)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-filter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-filter)
+# api documentation for  [gulp-filter (v5.0.0)](https://github.com/sindresorhus/gulp-filter#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-filter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-filter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-filter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-filter)
 #### Filter files in a Vinyl stream
 
 [![NPM](https://nodei.co/npm/gulp-filter.png?downloads=true)](https://www.npmjs.com/package/gulp-filter)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp_filter_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-filter/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-filter_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
