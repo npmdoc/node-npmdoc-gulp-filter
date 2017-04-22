@@ -1,9 +1,14 @@
-# api documentation for  [gulp-filter (v5.0.0)](https://github.com/sindresorhus/gulp-filter#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-filter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-filter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-filter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-filter)
+# npmdoc-gulp-filter
+
+#### api documentation for  [gulp-filter (v5.0.0)](https://github.com/sindresorhus/gulp-filter#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-filter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-filter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-filter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-filter)
+
 #### Filter files in a Vinyl stream
 
-[![NPM](https://nodei.co/npm/gulp-filter.png?downloads=true)](https://www.npmjs.com/package/gulp-filter)
+[![NPM](https://nodei.co/npm/gulp-filter.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-filter)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-filter_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-filter/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-filter/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -61,13 +65,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "gulp-filter",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/gulp-filter.git"
@@ -78,19 +80,10 @@
     "version": "5.0.0",
     "xo": {
         "esnext": true
-    }
+    },
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-filter](#apidoc.module.gulp-filter)
-
-
-
-# <a name="apidoc.module.gulp-filter"></a>[module gulp-filter](#apidoc.module.gulp-filter)
 
 
 
