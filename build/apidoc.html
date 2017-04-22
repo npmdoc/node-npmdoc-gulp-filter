@@ -61,12 +61,66 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-filter">module gulp-filter</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-filter.gulp-filter">
+            function <span class="apidocSignatureSpan"></span>gulp-filter
+            <span class="apidocSignatureSpan">(pattern, options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-filter" id="apidoc.module.gulp-filter">module gulp-filter</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-filter.gulp-filter" id="apidoc.element.gulp-filter.gulp-filter">
+        function <span class="apidocSignatureSpan"></span>gulp-filter
+        <span class="apidocSignatureSpan">(pattern, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">(pattern, options) =&#x3e; {
+	pattern = typeof pattern === &#x27;string&#x27; ? [pattern] : pattern;
+	options = options || {};
+
+	if (!Array.isArray(pattern) &#x26;&#x26; typeof pattern !== &#x27;function&#x27;) {
+		throw new gutil.PluginError(&#x27;gulp-filter&#x27;, &#x27;`pattern` should be a string, array, or function&#x27;);
+	}
+
+	return streamfilter((file, enc, cb) =&#x3e; {
+		let match;
+
+		if (typeof pattern === &#x27;function&#x27;) {
+			match = pattern(file);
+		} else {
+			let relPath = path.relative(file.cwd, file.path);
+
+			// If the path leaves the current working directory, then we need to
+			// resolve the absolute path so that the path can be properly matched
+			// by minimatch (via multimatch)
+			if (relPath.indexOf(&#x27;../&#x27;) === 0) {
+				relPath = path.resolve(relPath);
+			}
+
+			match = multimatch(relPath, pattern, options).length &#x3e; 0;
+		}
+
+		cb(!match);
+	}, {
+		objectMode: true,
+		passthrough: options.passthrough !== false,
+		restore: options.restore
+	});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
